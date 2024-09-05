@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKyxq39R3PD09QkAT3imK9t2sLJBM-Z-4"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Fetch Your Weather</h1>
+    <button id="fetch-data">Get Location & Weather</button>
+    <div id="map-container"></div>
+    <section id="weather-data">
+      <h2>Your Weather Data</h2>
+      <p id="location"></p>
+      <p id="wind-speed"></p>
+      <p id="humidity"></p>
+      <p id="time-zone"></p>
+      <p id="pressure"></p>
+      <p id="wind-direction"></p>
+      <p id="uv-index"></p>
+    </section>
+    <p id="error-message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
